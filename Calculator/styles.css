@@ -1,0 +1,23 @@
+/* Styling for a clean and professional look */
+.calculator {
+    max-width: 350px;
+    width: 100%;
+}
+
+button {
+    font-size: 1.25rem;
+    font-weight: bold;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+.display {
+    font-family: 'Courier New', Courier, monospace;
+}
