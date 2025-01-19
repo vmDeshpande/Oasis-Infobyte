@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Authentication System</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script defer src="script.js"></script>
+</head>
+
+<body class="bg-gray-100">
+
+    <!-- Registration Page -->
+    <div id="registerPage" class="w-full max-w-xs mx-auto mt-20">
+        <div class="bg-white p-8 rounded-lg shadow-md">
+            <h2 class="text-2xl font-semibold mb-4 text-center">Register</h2>
+            <form id="registerForm">
+                <input type="text" id="username" placeholder="Username" class="w-full p-2 mb-4 border border-gray-300 rounded" required>
+                <input type="password" id="password" placeholder="Password" class="w-full p-2 mb-4 border border-gray-300 rounded" required>
+                <button type="submit" class="w-full bg-blue-500 text-white py-2 rounded">Register</button>
+            </form>
+            <p class="mt-4 text-center">Already have an account? <span id="toLogin" class="text-blue-500 cursor-pointer">Login</span></p>
+        </div>
+    </div>
+
+    <!-- Login Page -->
+    <div id="loginPage" class="w-full max-w-xs mx-auto mt-20 hidden">
+        <div class="bg-white p-8 rounded-lg shadow-md">
+            <h2 class="text-2xl font-semibold mb-4 text-center">Login</h2>
+            <form id="loginForm">
+                <input type="text" id="loginUsername" placeholder="Username" class="w-full p-2 mb-4 border border-gray-300 rounded" required>
+                <input type="password" id="loginPassword" placeholder="Password" class="w-full p-2 mb-4 border border-gray-300 rounded" required>
+                <button type="submit" class="w-full bg-blue-500 text-white py-2 rounded">Login</button>
+            </form>
+            <p class="mt-4 text-center">Don't have an account? <span id="toRegister" class="text-blue-500 cursor-pointer">Register</span></p>
+        </div>
+    </div>
+
+    <!-- Secured Page -->
+    <div id="securedPage" class="w-full max-w-xs mx-auto mt-20 hidden">
+        <div class="bg-white p-8 rounded-lg shadow-md">
+            <h2 class="text-2xl font-semibold mb-4 text-center">Welcome to Secured Page</h2>
+            <p class="text-center">You have successfully logged in!</p>
+            <button id="logoutBtn" class="w-full bg-red-500 text-white py-2 rounded mt-4">Logout</button>
+        </div>
+    </div>
+
+</body>
+
+</html>

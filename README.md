@@ -16,11 +16,11 @@ An advanced calculator built using HTML, CSS (Tailwind CSS), and JavaScript. Thi
 - **Technologies Used**: HTML, CSS, JavaScript
 
 ### 2. To Do Webapp
-a basic to-do app that enables a user to add daily tasks.
+A simple to-do list web application that allows users to add tasks with a title and description, mark them as completed, and view the tasks in separate lists for pending and completed tasks. The tasks are persisted in `localStorage`, so they remain even after the page is reloaded.
 
 - **Technologies Used**: HTML, CSS, JavaScript
 
 ### 3. Login Authentication
-a simple login authentication system.
+This is a simple login authentication system built using HTML, CSS (Tailwind), and JavaScript. The system allows users to register, login, and access a secured page. The registered users are stored in the browser's `localStorage`, and session management is handled via `sessionStorage`.
 
 - **Technologies Used**: HTML, CSS, JavaScript
